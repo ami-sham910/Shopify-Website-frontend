@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#Nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  height: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navBar {
+  display: flex;
+}
+.navList {
+  display: inline;
+  margin: 0 17px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: rgba(8, 8, 8, 0.74);
+}
+.navList-1 {
+  list-style: none;
+  margin: 8px 0;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* margin-top: 9px; */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navBar a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.sm-btn {
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 14px;
+  filter: invert(0.3);
+}
+
+.sm-btn:hover{
+  cursor: pointer;
+  filter: none;
+}
+
+/* Responsive Design */
+
+

@@ -1,0 +1,28 @@
+body {
+  background-color: #edf6f9;
+}
+
+.list-item {
+  margin-top: 12px;
+  margin-left: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 20%;
+}
+
+.images {
+  width: 18rem;
+  height: auto;
+}
+
+.class-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
